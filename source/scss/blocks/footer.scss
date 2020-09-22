@@ -1,0 +1,16 @@
+.footer {
+  background-color: $dark-brown;
+}
+
+.footer__address {
+  font-size: 14px;
+  line-height: 26.58px;
+  color: rgba($light-beige, 0.83);
+}
+
+.footer__tel {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26.58px;
+  color: $light-beige;
+}
