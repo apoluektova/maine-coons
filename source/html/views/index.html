@@ -12,27 +12,27 @@
 
 <body>
   <header class="header">
-    <div>
-      <p>Новосибирск</p>
-      <h1>Питомник Мейн-Кунов</h1>
-      <p>Первый питомник с расширенным спектром услуг</p>
-      <a href="#">Смотреть котиков</a>
+    <div class="header__info">
+      <p class="header__city">Новосибирск</p>
+      <h1 class="header__title">Питомник Мейн-Кунов</h1>
+      <p class="header__lead">Первый питомник с расширенным спектром услуг</p>
+      <a href="#" class="header__link">Смотреть котиков</a>
     </div>
     <div>
-      <ul>
-        <li>
+      <ul class="social header__social">
+        <li class="social__item">
           <span class="visually-hidden">Вконтакте</span>
-          <a href="">
+          <a href="" class="social__link">
           </a>
         </li>
-        <li>
+        <li class="social__item">
           <span class="visually-hidden">Твиттер</span>
-          <a href="">
+          <a href="" class="social__link">
           </a>
         </li>
-        <li>
+        <li class="social__item">
           <span class="visually-hidden">Фейсбук</span>
-          <a href="">
+          <a href="" clas="social__link">
           </a>
         </li>
       </ul>
@@ -41,12 +41,12 @@
 
   <main>
     <section class="pets">
-      <h2>Питомцы</h2>
-      <p>Все представители нашего питомника имеют ветеринарный паспорт с отметками о прививках и документ с родословной</p>
-      <ul>
-        <li>Коты</li>
-        <li>Кошки</li>
-        <li>Котята</li>
+      <h2 class="pets__title">Питомцы</h2>
+      <p class="pets__lead">Все представители нашего питомника имеют ветеринарный паспорт с отметками о прививках и документ с родословной</p>
+      <ul class="pets__list">
+        <li class="pets__item--active">Коты</li>
+        <li class="pets__item">Кошки</li>
+        <li class="pets__item">Котята</li>
       </ul>
       <div class="slider">
         <div>
@@ -64,8 +64,8 @@
       </button>
       <button>
         <span class="visually-hidden">Следующий слайд</span>
-      </button>>
-    <a href="">Смотреть больше</a>
+      </button>
+    <a href="" class="pets__link">Смотреть больше</a>
     </section>
 
     <section class="characteristics">
@@ -156,10 +156,10 @@
       </ul>
       <div class="slider__buttons">
         <button type="button">
-          <span class="visually-hidden">Предыдущий отзыв</span>
+          <span class="visually-hidden">Предыдущий сотрудник</span>
         </button>
         <button type="button">
-          <span class="visually-hidden">Следующий отзыв</span>
+          <span class="visually-hidden">Следующий сотрудник</span>
         </button>
       </div>
     </section>
@@ -189,10 +189,67 @@
     </section>
 
     <section class="reviews">
+      <h2 class="reviews__title">Отзывы</h2>
+      <ul class="reviews__list">
+        <li class="reviews__item">
+          <div class="reviews__photo">
+            <!-- Фото автора отзыва-->
+          </div>
+          <blockquote class="reviews__quote">
+            <cite class="reviews__author">Серёжа Попов</cite>
+            <p class="reviews__texst">Я выражаю огромную благодарность вашему питомнику. Мой Феликс невероятно умен и воспитан. Огромным плюсом питомника является возможность консультироваться в любое время</p>
+          </blockquote>
+          <time datetime="2018-05-24">24 мая 2018</time>
+          <ul class="reviews__social-list">
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">Твиттер</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">Вконтакте</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="slider__buttons">
+        <button type="button">
+          <span class="visually-hidden">Предыдущий сотрудник</span>
+        </button>
+        <button type="button">
+          <span class="visually-hidden">Следующий сотрудник</span>
+        </button>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
+    <a class="footer__link" aria-label="Логотип питомника мейн-кунов">
+      <span class="visually-hidden">Логотип питомника мейн-кунов</span>
+    </a>
+
+    <ul class="social footer__social">
+      <li class="social__item">
+        <a href="#" class="social__link">
+          <span class="visually-hidden">Фейсбук</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a href="#" class="social__link">
+          <span class="visually-hidden">Твиттер</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a href="#" class="social__link">
+          <span class="visually-hidden">Вконтакте</span>
+        </a>
+      </li>
+    </ul>
+
+    <p class="footer__address">Новосибирск, Пушкинский проспект, 19</p>
+    <a class="footer__tel" href="tel:+73839006465">+7 (383) 900-64-65</a>
 
   </footer>
 </body>

@@ -1,0 +1,35 @@
+.team {
+  background-color: $dark-brown;
+}
+
+.team__title {
+  @include heading;
+  line-height: 41.58px;
+}
+
+.team__lead {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24.75px;
+  text-align: center;
+}
+
+.team__review-author {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.13px;
+  font-style: normal;
+}
+
+.team__review-authorJob {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.75px;
+}
+
+.team__review-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24.75px;
+  color: rgba($white, 0.72);
+}

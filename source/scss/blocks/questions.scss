@@ -1,0 +1,27 @@
+.questions__title {
+  @include heading;
+  line-height: 41.58px;
+}
+
+.questions__lead {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.5px;
+  text-align: center;
+}
+
+.questions__button {
+  @include no-button;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: $beige;
+}
+
+.questions__answer {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24.64px;
+  color: $beige;
+}

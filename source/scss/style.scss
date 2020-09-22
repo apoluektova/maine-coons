@@ -1,6 +1,12 @@
-@import "font-face";
+@import "normalize";
 @import "variables";
 @import "global";
-@import "blocks/container";
+@import "font-face";
+@import "mixins";
 @import "blocks/header";
-@import "blocks/logo";
+@import "blocks/pets";
+@import "blocks/characteristics";
+@import "blocks/advantages";
+@import "blocks/care";
+@import "blocks/team";
+@import "blocks/questions";

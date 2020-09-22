@@ -1,0 +1,19 @@
+.characteristics__title {
+  @include heading;
+  line-height: 41.58px;
+}
+
+.characteristics__lead {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26.25px;
+  text-align: center;
+}
+
+.characteristics__item {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21.49px;
+  text-align: right;
+  color: $white;
+}

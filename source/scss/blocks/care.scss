@@ -1,0 +1,18 @@
+.care__title {
+  @include heading;
+  line-height: 41.58px;
+}
+
+.care__link-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.78px;
+  color: $golden;
+}
+
+.care__link-description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22.97px;
+  color: $white;
+}
